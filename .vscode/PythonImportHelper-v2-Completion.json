@@ -272,6 +272,42 @@
         "documentation": {}
     },
     {
+        "label": "ListNode",
+        "kind": 6,
+        "importPath": "MISC.scrap.scrap",
+        "description": "MISC.scrap.scrap",
+        "peekOfCode": "class ListNode(object):\n  def __init__(self, x):\n    self.value = x\n    self.next = None\ndef removeKFromList(l, k):\n  c = l\n  while c:\n      if c.next and c.next.value == k:\n          c.next = c.next.next\n      else:",
+        "detail": "MISC.scrap.scrap",
+        "documentation": {}
+    },
+    {
+        "label": "removeKFromList",
+        "kind": 2,
+        "importPath": "MISC.scrap.scrap",
+        "description": "MISC.scrap.scrap",
+        "peekOfCode": "def removeKFromList(l, k):\n  c = l\n  while c:\n      if c.next and c.next.value == k:\n          c.next = c.next.next\n      else:\n          c = c.next\n  return l.next if l and l.value == k else l\nprint('def removeKFromList(l1, k1):',removeKFromList(l1, k1))",
+        "detail": "MISC.scrap.scrap",
+        "documentation": {}
+    },
+    {
+        "label": "l1",
+        "kind": 5,
+        "importPath": "MISC.scrap.scrap",
+        "description": "MISC.scrap.scrap",
+        "peekOfCode": "l1 = [3, 1, 2, 3, 4, 5]\nk1 = 3\nclass ListNode(object):\n  def __init__(self, x):\n    self.value = x\n    self.next = None\ndef removeKFromList(l, k):\n  c = l\n  while c:\n      if c.next and c.next.value == k:",
+        "detail": "MISC.scrap.scrap",
+        "documentation": {}
+    },
+    {
+        "label": "k1",
+        "kind": 5,
+        "importPath": "MISC.scrap.scrap",
+        "description": "MISC.scrap.scrap",
+        "peekOfCode": "k1 = 3\nclass ListNode(object):\n  def __init__(self, x):\n    self.value = x\n    self.next = None\ndef removeKFromList(l, k):\n  c = l\n  while c:\n      if c.next and c.next.value == k:\n          c.next = c.next.next",
+        "detail": "MISC.scrap.scrap",
+        "documentation": {}
+    },
+    {
         "label": "add",
         "kind": 2,
         "importPath": "wk17.d1.challenges.challenges",
