@@ -133,7 +133,7 @@ It would be most profitable to buy the stock on day 0 and sell it on day 1. Thus
 # prices = [8, 5, 3, 1]
 prices = [3, 100, 1, 97]
 
-#
+
 # prices = []
 # prices = [61, 91, 6, 15, 28, 30, 39, 69, 78, 81, 62, 38, 56, 69, 22, 95, 47, 82,
 #           52, 64, 74, 97, 60, 68, 5, 23, 45, 55, 66, 57, 26, 4, 21, 65, 55, 50,
@@ -1576,7 +1576,7 @@ reverseLinkedList(l) = [5, 4, 3, 2, 1].
 #   def __init__(self, x):
 #     self.value = x
 #     self.next = None
-#
+
 def reverseLinkedList(l):
     cur = l
     prev = None

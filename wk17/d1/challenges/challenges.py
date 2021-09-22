@@ -1,7 +1,7 @@
 #
-#
+
 # """# Challenges"""
-#
+
 # """
 # Challenge #1:
 # Create a function that takes two numbers as arguments and return their sum.
@@ -121,7 +121,7 @@ print(string_int("12"))
 # - num_args({}) ➞ 1
 # # """
 # def num_args():
-#
+
 #
 # """
 # Challenge #9:
@@ -136,7 +136,7 @@ print(string_int("12"))
 # """
 # def mapping(letters):
 
-#
+
 # """
 # Challenge #10:
 # Create a function that applies a discount d to every number in the list.

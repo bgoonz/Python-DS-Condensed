@@ -9,7 +9,7 @@ import math
 # a = "apple"
 # b = 15
 # c = 8.8
-#
+
 # print("Variable a is %s, variable b is %d and variable c is %f" % (a, b, c))
 
 """
@@ -19,28 +19,28 @@ Modify the "mystery_string" below until all of the print statements print as exp
 
 # # Should print out 48
 # print(len(mystery_string))
-#
+
 # # Should print out 5
 # print(mystery_string.index("k"))
-#
+
 # # Should print out 4
 # print(mystery_string.count("c"))
-#
+
 # # Should print out "potential"
 # print(mystery_string[10:19])
-#
+
 # # Should print out "sseldrager"
 # print(mystery_string[30:20:-1])
-#
+
 # # Should print out "Ulcigptnil eadeso icmtne"
 # print(mystery_string[::2])
-#
+
 # # Should print out True
 # print(mystery_string.startswith("Unlo"))
-#
+
 # # Should print out True
 # print(mystery_string.endswith("stance."))
-#
+
 # # Should print out 5
 # print(len(mystery_string.split()))
 
@@ -89,33 +89,33 @@ Use a list comprehension to create a new list called new_list out of the numbers
 """
 
 # numbers = [22.3, -184.4, 57.8, 99.6, -18.2, 84.2, 71.3]
-#
+
 # new_list = [int(num) for num in numbers if num > 0]
 # print(new_list)
 
 """
 Modify this function to make it return the sum of the arguments a and b.
 """
-#
+
 #
 # def sum(a, b):
 #     # DELETE THE PASS STATEMENT AND WRITE YOUR CODE HERE
 #     return a + b
-#
+
 #
 # # This should print 7
 # print(sum(2, 5))
-#
+
 # """
 # Modify this function to use the sum function above to return
 # the double of the sum of a and b.
 # """
-#
+
 #
 # def double_the_sum(a, b):
 #     # DELETE THE PASS STATEMENT AND WRITE YOUR CODE HERE
 #     return sum(a, b) * 2
-#
+
 #
 # # This should print 14
 # print(double_the_sum(2, 5))
@@ -126,13 +126,13 @@ and `dog`. Set `cat` to have a name of "Purrfect", kind of "cat",
 and color of "brown". Set `dog` to have a name of "Fido",
 kind of "dog", and color of "black".
 """
-#
+
 #
 # class Animal:
 #     name = ""
 #     kind = ""
 #     color = ""
-#
+
 #     def description(self):
 #         return "%s is a %s %s." % (self.name, self.color, self.kind)
 
@@ -141,19 +141,19 @@ kind of "dog", and color of "black".
 # as described above.
 
 # YOUR CODE HERE
-#
+
 # cat = Animal()
 # cat.name = 'Purrfect'
 # cat.kind = 'cat'
 # cat.color = 'brown'
-#
+
 # dog = Animal()
 # dog.name = 'Fido'
 # dog.kind = 'dog'
 # dog.color = 'black'
+
 #
-#
-#
+
 # # Should print Purrfect is a brown cat.
 # print(cat.description())
 # # Should print Fido is a black dog.
@@ -168,15 +168,15 @@ Remove "Bill" from the phonebook.
 #     "Bill": 7659803241,
 #     "Barry": 6573214789
 # }
-#
+
 # # YOUR CODE HERE
 # del phonebook['Bill']
 # phonebook.update({'Herb': 7653420789})
-#
+
 # # Should print Herb is in the phonebook.
 # if "Herb" in phonebook:
 #     print("Herb is in the phonebook.")
-#
+
 # # Should print Bill is not in the phonebook.
 # if "Bill" not in phonebook:
 #     print("Bill is not in the phonebook.")
@@ -197,7 +197,7 @@ s = "abacaba"
 
 # def threeCharsDistinct(s):
 #     count = 0
-#
+
 #     for i in range(len(s)):
 #         if i < 6:
 #             if s[0] != s[i + 1] and s[i] != s[i + 2] and s[i + 1] != s[i + 2]:
@@ -303,7 +303,7 @@ def digitsManipulations(n):
     return math.prod(nums) - sum(nums)
 
 
-#
+
 # print(digitsManipulations(n))
 
 s = "abcde"
@@ -322,7 +322,7 @@ def countVowelConsonant(s):
 
 
 # print(countVowelConsonant(s))
-#
+
 # numbers = ["64630488",
 #            "6463043",
 #            "64630438",
@@ -343,7 +343,7 @@ def countVowelConsonant(s):
 #            "64630408",
 #            "64630418",
 #            "64630430"]
-#
+
 #
 # def prefixFreePhones(numbers):
 #     if len(numbers) < 2:
@@ -353,7 +353,7 @@ def countVowelConsonant(s):
 #             if num.startswith(numbers[i]) and num != numbers[i]:
 #                 return False
 #     return True
-#
+
 #
 # print(prefixFreePhones(numbers))
 
@@ -373,7 +373,7 @@ def contains_duplicate_2(nums):
 
 
 # n = 15
-#
+
 # def fizzBuzz(n):
 #     fizz_array = []
 #     for i in range(1, n + 1):
@@ -381,24 +381,24 @@ def contains_duplicate_2(nums):
 #             fizz_array.append('FizzBuzz')
 #         elif i % 3 == 0:
 #             fizz_array.append('Fizz')
-#
+
 #         elif i % 5 == 0:
 #             fizz_array.append('Buzz')
 #         else:
 #             fizz_array.append(str(i))
 #     return fizz_array
-#
+
 #
 # print(fizzBuzz(n))
-#
+
 # time = "24:00"
-#
+
 # def validTime(time):
 #     print(time[0] + time[1])
 #     if int(time[0] + time[1]) > 23 or int(time[3] + time[4]) > 59:
 #         return False
 #     else:
 #         return True
-#
+
 #
 # print(validTime(time))

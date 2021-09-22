@@ -296,7 +296,7 @@ return False.
 """
 
 
-#
+
 # Binary trees are already defined with this interface:
 # class Tree(object):
 #   def __init__(self, x):
@@ -673,7 +673,7 @@ Output: [2,4,3]
 """
 
 
-#
+
 # Binary trees are already defined with this interface:
 # class Tree(object):
 #   def __init__(self, x):
@@ -756,7 +756,7 @@ t = {
 
 # ********* Breadth first
 
-#
+
 # Binary trees are already defined with this interface:
 # class Tree(object):
 #   def __init__(self, x):
@@ -826,7 +826,7 @@ The given tree looks like this:
 """
 
 
-#
+
 # Binary trees are already defined with this interface:
 # class Tree(object):
 #   def __init__(self, x):
@@ -1543,7 +1543,7 @@ lower = 7
 upper = 15
 
 
-#
+
 # Binary trees are already defined with this interface:
 # class Tree(object):
 #   def __init__(self, x):
@@ -1551,7 +1551,7 @@ upper = 15
 #     self.left = None
 #     self.right = None
 
-#
+
 # Binary trees are already defined with this interface:
 # class Tree(object):
 #   def __init__(self, x):
@@ -1610,7 +1610,7 @@ Output:
 """
 
 
-#
+
 # Binary trees are already defined with this interface:
 # class Tree(object):
 #   def __init__(self, x):

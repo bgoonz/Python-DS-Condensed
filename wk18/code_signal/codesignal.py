@@ -53,7 +53,7 @@ arr = [8, 4, 6, 2, 6, 4, 7, 9, 5, 8]
 #     else:
 #         # there is a smallest match index return the value at that index
 #         return a[matched[0]]
-#
+
 #
 # print(firstDuplicate(arr))
 
@@ -229,17 +229,17 @@ grid = [
 # def sudoku2(grid):
 #     # check if any inner array contains duplicate numbers
 #     # if so return false
-#
+
 #     def check_horizontal(grid):
 #         for arr in grid:
 #             for i in range(len(arr)):
 #                 if arr[i] != '.' and arr[i] in arr[i + 1:]:
 #                     return False
 #         return True
-#
+
 #     def check_vertical(grid):
 #         col = 0
-#
+
 #         while col < len(grid[0]):
 #             temp_arr = []
 #             for arr in grid:
@@ -249,22 +249,22 @@ grid = [
 #                     return False
 #             col += 1
 #         return True
-#
+
 #     def check_subgrid(grid, row, col):
 #         print('row:', row)
 #         print('col:', col)
-#
+
 #         row = row
 #         # col = col
 #         step = 0
-#
+
 #         subgrid = []
 #         while step < len(grid[0]):
-#
+
 #             print('step:', step)
 #             colu = col
 #             temp_subgrid = []
-#
+
 #             for i in range(3):
 #                 temp_subgrid.append(grid[row][colu])
 #                 colu += 1
@@ -273,7 +273,7 @@ grid = [
 #                 for i in range(len(subgrid)):
 #                     if subgrid[i] != '.' and subgrid[i] in subgrid[i + 1:]:
 #                         return False
-#
+
 #             if step == 8:
 #                 row = 0
 #                 col = 0
@@ -282,12 +282,12 @@ grid = [
 #             # col += 1
 #             step += 3
 #         return True
-#
+
 #     if not check_horizontal(grid):
 #         return False
 #     if not check_vertical(grid):
 #         return False
-#
+
 #     for i in range(0, 9, 3):
 #         for j in range(0, 9, 3):
 #             print('***********')
@@ -443,10 +443,7 @@ removeKFromList(l, k) = [1, 2, 3, 4, 5, 6, 7].
 # class ListNode(object):
 #   def __init__(self, x):
 #     self.value = x
-#     self.next = None
-#
-
-l = [3, 1, 2, 3, 4, 5]
+#     self.next = Nonel = [3, 1, 2, 3, 4, 5]
 k = 3
 
 
@@ -506,10 +503,7 @@ isListPalindrome(l) = false.
 # class ListNode(object):
 #   def __init__(self, x):
 #     self.value = x
-#     self.next = None
-#
-
-# my solution (used google)
+#     self.next = None# my solution (used google)
 def isListPalindrome(l):
     if l is None:
         return True
@@ -541,27 +535,27 @@ def isListPalindrome(l):
 #     while n.next:
 #         n = n.next
 #         s += 1
-#
+
 #     middle = s // 2
-#
+
 #     n = l
 #     for i in range(middle):
 #         n = n.next
-#
+
 #     if s % 2:
 #         n = n.next
-#
+
 #     r = n  # reverse n
 #     m = r.next
 #     for _ in range(middle - 1):  # flip n
 #         m.next, r, m = r, m, m.next
-#
+
 #     for _ in range(middle):
 #         if r.value != l.value:
 #             return False
 #         r = r.next
 #         l = l.next
-#
+
 #     return True
 
 """
@@ -600,7 +594,7 @@ b = [9999, 9999, 9999, 9999, 9999, 9999]
 #         return [0]
 #     if a.value == 0:
 #         return b
-#
+
 #     cur_a = a
 #     cur_b = b
 #     a_val = ''
@@ -614,17 +608,17 @@ b = [9999, 9999, 9999, 9999, 9999, 9999]
 #         a_val += '0'*zeros
 #         a_val += str(cur_a.value)
 #         cur_a = cur_a.next
-#
+
 #     while cur_b is not None:
 #         b_val += str(cur_b.value)
 #         cur_b = cur_b.next
-#
+
 #     result = str(int(a_val) + int(b_val))
 #     print('a:', a_val)
 #     print('b:', b_val)
 #     print(result)
 #     n = count
-#
+
 #     res_arr = [int(result[i:i+n]) for i in range(0, len(result), n)]
 #     print('res arr', res_arr)
 #     for num in res_arr:
@@ -632,9 +626,9 @@ b = [9999, 9999, 9999, 9999, 9999, 9999]
 #             num = int(str(num).rstrip('0'))
 #         if len(str(a[0])) == 1:
 #             num = int(str(num).rstrip('0'))
-#
+
 #     return res_arr
-#
+
 # print(addTwoHugeNumbers(a, b))
 
 
@@ -642,10 +636,7 @@ b = [9999, 9999, 9999, 9999, 9999, 9999]
 # class ListNode(object):
 #   def __init__(self, x):
 #     self.value = x
-#     self.next = None
-#
-
-# top codesignal passing solution
+#     self.next = None# top codesignal passing solution
 def addTwoHugeNumbers(a, b):
     a = reverse(a)
     b = reverse(b)
@@ -705,7 +696,7 @@ rearrangeLastN(l, n) = [7, 1, 2, 3, 4, 5, 6].
 #   def __init__(self, x):
 #     self.value = x
 #     self.next = None
-#
+
 def rearrangeLastN(l, n):
     if l is None:
         return l

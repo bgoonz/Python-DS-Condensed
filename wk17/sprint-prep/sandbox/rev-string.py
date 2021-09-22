@@ -11,7 +11,7 @@ def csReverseString(chars):
 #         index -= 1                    # index = index - 1
 #         new_string += chars[index]  # new_string = new_string + character
 #     return new_string
-#
+
 #
 # print(csReverseString2("helloworld"))
 

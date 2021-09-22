@@ -60,9 +60,6 @@ print("------------------------------Requires Sorted Data...--------------------
 
 # Binary Search
 # If the list is sorted, then the binary search algorithm will take O(log(n)) time.
-#
-
-
 def binary_search(lst, target):
     low = 0
     high = len(lst) - 1

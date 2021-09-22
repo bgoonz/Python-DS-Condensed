@@ -164,7 +164,7 @@ def naive_fill_knapsack(sack, items):
 #     Try every combination to find the best
 #     """
 #     # sack.clear()
-#
+
 #     # TODO - generate all possible combinations of items
 #     combos = []
 #     for i in range(1, len(items) + 1):
@@ -173,7 +173,7 @@ def naive_fill_knapsack(sack, items):
 #         # add each combo to the list of combos
 #         for combo in list_of_combos:
 #             combos.append(list(combo))
-#
+
 #
 #     # TODO - calculate the value of all combinations
 #     # track best value found
@@ -185,12 +185,12 @@ def naive_fill_knapsack(sack, items):
 #         for item in c:
 #             value += item.value
 #             weight += item.weight
-#
+
 #         # find combo with the highest value
 #         if weight <= 50 and value > best_value:
 #             best_value = value
 #             sack = c
-#
+
 #     # find the combo with the highest value
 #     return sack
 
@@ -248,7 +248,7 @@ def greedy_fill_knapsack(sack, items):  # O(n log n) because of the sort
 # start = time.time()
 # greedy_fill_knapsack(knapsack, items)
 # print_results(items, knapsack)
-#
+
 # print(f'Starting naive approach test...')
 # items = medium_cave
 # start = time.time()
@@ -301,7 +301,7 @@ with open("words.txt") as f:
 # with dictionary
 
 # words = {}
-#
+
 # with open('words.txt') as f:
 #     for w in f:
 #         w = w.strip()

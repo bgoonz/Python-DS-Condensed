@@ -319,7 +319,7 @@ tester = [
 
 # roads = [[0, 4], [5, 0], [2, 1],
 #          [1, 4], [2, 3], [5, 2]]
-#
+
 # roads = [[0, 1],
 #          [0, 2],
 #          [3, 4]]
@@ -336,7 +336,7 @@ tester = [
 #     for road in roads:
 #         graph[str(road[0])].add(str(road[1]))
 #         graph[str(road[1])].add(str(road[0]))
-#
+
 #
 #     def bfs(graph, S, D):
 #         queue = [(S, [S])]
@@ -347,13 +347,13 @@ tester = [
 #                     yield path + [next]
 #                 else:
 #                     queue.append((next, path + [next]))
-#
+
 #     def shortest(graph, S, D):
 #         try:
 #             return next(bfs(graph, S, D))
 #         except StopIteration:
 #             return None
-#
+
 #     for i in range(len(graph)):
 #         for j in range(1, len(graph)):
 #             if i != j:
@@ -853,7 +853,7 @@ def cycle(g, u, path):
 # my solution only passing 19/20 tests
 # def hasDeadlock(connections):
 #     # find out if the graph has a cycle
-#
+
 #     # helper function to see if a nodes children are visited
 #     def are_children_visited(vert):
 #         print(connections[vert])
@@ -863,7 +863,7 @@ def cycle(g, u, path):
 #                 print('yes in visited **********')
 #             else:
 #                 return False
-#
+
 #     # iterating the WHOLE array
 #     for i in range(len(connections)):
 #         # keep track of visited verts
@@ -871,7 +871,7 @@ def cycle(g, u, path):
 #         q = []
 #         # creating a new q every iteration with the current index
 #         q.append(i)
-#
+
 #         # while there is a vert in the q
 #         while q:
 #             cur = q.pop(0)

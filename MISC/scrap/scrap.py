@@ -19,9 +19,6 @@ removeKFromList(l, k) = [1, 2, 3, 4, 5, 6, 7].
 #   def __init__(self, x):
 #     self.value = x
 #     self.next = None
-#
-
-
 # Alt Soln:
 
 

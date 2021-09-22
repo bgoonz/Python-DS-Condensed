@@ -89,7 +89,7 @@ class MyHashTable:
             self.values[index] = None
 
 
-#
+
 # hash_table = MyHashTable()
 # print(hash_table.put("a", 1))
 # print(hash_table.put("b", 2))
@@ -691,7 +691,7 @@ The head node of the updated linked list.
 #   def __init__(self, x):
 #     self.value = x
 #     self.next = None
-#
+
 def condense_linked_list(node):
     # keep track of seen values
     seen_values = []

@@ -129,7 +129,7 @@ def is_anagram(a, b):
 # # # Did you notice that the identity of store remained the same?
 # # # But I thought if you changed a mutable object, a new object would
 # # # be created in memory? Why did that not occur here?
-#
+
 #
 # #  - Constant O(1)	The runtime is entirely unaffected by the input size.
 # # This is the ideal solution.
@@ -143,7 +143,7 @@ def is_anagram(a, b):
 # # grow at a much faster rate. This solution is inefficient.
 # #  - Factorial O(n!)	As the input size increases, the runtime will grow
 # #  astronomically, even with relatively small inputs. This solution is exceptionally inefficient.
-#
+
 #
 # """
 # Classify the runtime complexity of the sorted_squares function below using Big O notation.
@@ -239,7 +239,7 @@ Classify the runtime complexity of the number_of_steps function below using Big 
 # """
 # Use Big O notation to classify the space complexity of the function below.
 # """
-#
+
 #
 def fibonacci(n):
     lst = [0, 1]
@@ -250,11 +250,11 @@ def fibonacci(n):
 
 
 # # O(n)
-#
+
 # """
 # Use Big O notation to classify the space complexity of the function below.
 # """
-#
+
 #
 def fibonacci_two(n):
     x, y, z = 0, 1, None
@@ -272,11 +272,11 @@ def fibonacci_two(n):
 
 
 # # O(1)
-#
+
 # """
 # Use Big O notation to classify the space complexity of the function below.
 # """
-#
+
 #
 def do_something(n):
     lst = []
@@ -291,7 +291,7 @@ def do_something(n):
 
 
 # numbers = [2, 0, 0, 0]
-#
+
 #
 def removeEvens(numbers):
     return [num for num in numbers if num % 2 != 0]
@@ -316,11 +316,11 @@ def arrayMedian(sequence):
 
 
 # print(arrayMedian(sequence))
-#
+
 # s = "TuVwXYZ"
-#
+
 # # s = "ABCDEFFDEfghCBA"
-#
+
 # # def originalIncreasingSubstrings(s):
 # #     string = ''
 # #     subs = []
@@ -335,7 +335,7 @@ def arrayMedian(sequence):
 # #     subs.append(s[len(s) - 1])
 # #     i += 1
 # #     return subs
-#
+
 # s = "TuVwXYZ"
 
 # s = "ABCDEFFDEfghCBA"
@@ -367,7 +367,7 @@ def increasingSubstrings(s):
 
 
 # print(increasingSubstrings(s))
-#
+
 #
 # #  25 to binary 11001
 # #  63 to binary 111111
@@ -428,7 +428,7 @@ def additionWithoutCarrying(param1, param2):
 
 
 # print(additionWithoutCarrying(param1, param2))
-#
+
 # Given an array of positive integers a, your task is to calculate how many of its elements have an even number of digits.#
 # Example
 # For a = [12, 134, 111, 1111, 10], the output should be evenDigitsNumber(a) = 3.
@@ -447,25 +447,25 @@ def evenDigitsNumber(a):
 # print(evenDigitsNumber(a))
 
 # You're writing a new programming language and you'd like it to have the capability of splitting a string into substrings with limited characters. More specifically, we'll call a substring good if the absolute difference in ASCII codes between any two of its characters is less than or equal to k.
-#
+
 # For example, if k = 3, then the string "bad" would be considered good, since the greatest difference in ASCII codes is 3 (between the a and d characters). The string "nice" would not be considered good, since there's a difference of 11 between the c and n characters.
-#
+
 # You are given a string strToSplit that consists of lowercase English letters only, and your task is to find the minimal number of good substrings you can split it into.
-#
+
 # Hint: Iterate over the string strToSplit and keep the ASCII codes of the smallest and the greatest characters in the current substring. Every time when the difference between them becomes greater than k, it means that the last considered symbol should be the first one in a new substring.
-#
+
 # Example
-#
+
 # For strToSplit = "aaabaaabb" and k = 0, the output should be goodSubstrings(strToSplit, k) = 4.
-#
+
 # strToSplit could be split into ["aaa", "b", "aaa", "bb"]. Each substring must consist of only one type of character, because it is required that |s[i] - s[j]| ≤ 0 for each substring s.
-#
+
 # For strToSplit = "aaabaaabb" and k = 1, the output should be goodSubstrings(strToSplit, k) = 1.
-#
+
 # Since the only characters in the string have a difference of 1, aaabaaabb meets the requirement |strToSplit[i] - strToSplit[j]| ≤ 1. So only 1 substring is required (and it's the full original string).
-#
+
 # For strToSplit = "aaabzaaabb" and k = 10, the output should be goodSubstrings(strToSplit, k) = 3.
-#
+
 # strToSplit could be split into ["aaab", "z", "aaabb"]. Since the z character has such a large difference with each of its adjacent characters, it must be in a substring of its own.
 
 
