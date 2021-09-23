@@ -2913,7 +2913,7 @@
         "kind": 5,
         "importPath": "wk18.code_signal.codesignal",
         "description": "wk18.code_signal.codesignal",
-        "peekOfCode": "a = [1]\nb = [9999, 9999, 9999, 9999, 9999, 9999]\n# my code couldn't get to pass\n# def addTwoHugeNumbers(a, b):\n#     if a is None and b is None:\n#         return [0]\n#     if a.value == 0:\n#         return b\n#\n#     cur_a = a",
+        "peekOfCode": "a = [1]\nb = [9999, 9999, 9999, 9999, 9999, 9999]\n# my code couldn't get to pass\n# def addTwoHugeNumbers(a, b):\n#     if a is None and b is None:\n#         return [0]\n#     if a.value == 0:\n#         return b\n#     cur_a = a\n#     cur_b = b",
         "detail": "wk18.code_signal.codesignal",
         "documentation": {}
     },
@@ -2922,7 +2922,7 @@
         "kind": 5,
         "importPath": "wk18.code_signal.codesignal",
         "description": "wk18.code_signal.codesignal",
-        "peekOfCode": "b = [9999, 9999, 9999, 9999, 9999, 9999]\n# my code couldn't get to pass\n# def addTwoHugeNumbers(a, b):\n#     if a is None and b is None:\n#         return [0]\n#     if a.value == 0:\n#         return b\n#\n#     cur_a = a\n#     cur_b = b",
+        "peekOfCode": "b = [9999, 9999, 9999, 9999, 9999, 9999]\n# my code couldn't get to pass\n# def addTwoHugeNumbers(a, b):\n#     if a is None and b is None:\n#         return [0]\n#     if a.value == 0:\n#         return b\n#     cur_a = a\n#     cur_b = b\n#     a_val = ''",
         "detail": "wk18.code_signal.codesignal",
         "documentation": {}
     },
@@ -2967,7 +2967,7 @@
         "kind": 2,
         "importPath": "wk18.code_signal.cs-week1-projects",
         "description": "wk18.code_signal.cs-week1-projects",
-        "peekOfCode": "def digitsManipulations(n):\n    nums = []\n    for num in str(n):\n        nums.append(int(num))\n    return math.prod(nums) - sum(nums)\n#\n# print(digitsManipulations(n))\ns = \"abcde\"\ndef countVowelConsonant(s):\n    vowel_count = 0",
+        "peekOfCode": "def digitsManipulations(n):\n    nums = []\n    for num in str(n):\n        nums.append(int(num))\n    return math.prod(nums) - sum(nums)\n# print(digitsManipulations(n))\ns = \"abcde\"\ndef countVowelConsonant(s):\n    vowel_count = 0\n    const_count = 0",
         "detail": "wk18.code_signal.cs-week1-projects",
         "documentation": {}
     },
@@ -2994,7 +2994,7 @@
         "kind": 5,
         "importPath": "wk18.code_signal.cs-week1-projects",
         "description": "wk18.code_signal.cs-week1-projects",
-        "peekOfCode": "s = \"abacaba\"\n# def threeCharsDistinct(s):\n#     count = 0\n#\n#     for i in range(len(s)):\n#         if i < 6:\n#             if s[0] != s[i + 1] and s[i] != s[i + 2] and s[i + 1] != s[i + 2]:\n#                 count += 1\n#     print(count)\ndef threeCharsDistinct(s):",
+        "peekOfCode": "s = \"abacaba\"\n# def threeCharsDistinct(s):\n#     count = 0\n#     for i in range(len(s)):\n#         if i < 6:\n#             if s[0] != s[i + 1] and s[i] != s[i + 2] and s[i + 1] != s[i + 2]:\n#                 count += 1\n#     print(count)\ndef threeCharsDistinct(s):\n    count = 0",
         "detail": "wk18.code_signal.cs-week1-projects",
         "documentation": {}
     },
@@ -3039,7 +3039,7 @@
         "kind": 5,
         "importPath": "wk18.code_signal.cs-week1-projects",
         "description": "wk18.code_signal.cs-week1-projects",
-        "peekOfCode": "n = 123456\ndef digitsManipulations(n):\n    nums = []\n    for num in str(n):\n        nums.append(int(num))\n    return math.prod(nums) - sum(nums)\n#\n# print(digitsManipulations(n))\ns = \"abcde\"\ndef countVowelConsonant(s):",
+        "peekOfCode": "n = 123456\ndef digitsManipulations(n):\n    nums = []\n    for num in str(n):\n        nums.append(int(num))\n    return math.prod(nums) - sum(nums)\n# print(digitsManipulations(n))\ns = \"abcde\"\ndef countVowelConsonant(s):\n    vowel_count = 0",
         "detail": "wk18.code_signal.cs-week1-projects",
         "documentation": {}
     },
@@ -3084,7 +3084,7 @@
         "kind": 2,
         "importPath": "wk18.code_signal.cs-week2-projects",
         "description": "wk18.code_signal.cs-week2-projects",
-        "peekOfCode": "def fibonacci(n):\n    lst = [0, 1]\n    for i in range(2, n):\n        lst.append(lst[i - 2] + lst[i - 1])\n    return lst[n - 1]\n# # O(n)\n#\n# \"\"\"\n# Use Big O notation to classify the space complexity of the function below.\n# \"\"\"",
+        "peekOfCode": "def fibonacci(n):\n    lst = [0, 1]\n    for i in range(2, n):\n        lst.append(lst[i - 2] + lst[i - 1])\n    return lst[n - 1]\n# # O(n)\n# \"\"\"\n# Use Big O notation to classify the space complexity of the function below.\n# \"\"\"\n#",
         "detail": "wk18.code_signal.cs-week2-projects",
         "documentation": {}
     },
@@ -3102,7 +3102,7 @@
         "kind": 2,
         "importPath": "wk18.code_signal.cs-week2-projects",
         "description": "wk18.code_signal.cs-week2-projects",
-        "peekOfCode": "def do_something(n):\n    lst = []\n    for i in range(n):\n        for j in range(n):\n            lst.append(i + j)\n    return lst\n# O(n^2)\n# numbers = [2, 0, 0, 0]\n#\n#",
+        "peekOfCode": "def do_something(n):\n    lst = []\n    for i in range(n):\n        for j in range(n):\n            lst.append(i + j)\n    return lst\n# O(n^2)\n# numbers = [2, 0, 0, 0]\n#\ndef removeEvens(numbers):",
         "detail": "wk18.code_signal.cs-week2-projects",
         "documentation": {}
     },
@@ -3120,7 +3120,7 @@
         "kind": 2,
         "importPath": "wk18.code_signal.cs-week2-projects",
         "description": "wk18.code_signal.cs-week2-projects",
-        "peekOfCode": "def arrayMedian(sequence):\n    return statistics.median(sequence)\n# print(arrayMedian(sequence))\n#\n# s = \"TuVwXYZ\"\n#\n# # s = \"ABCDEFFDEfghCBA\"\n#\n# # def originalIncreasingSubstrings(s):\n# #     string = ''",
+        "peekOfCode": "def arrayMedian(sequence):\n    return statistics.median(sequence)\n# print(arrayMedian(sequence))\n# s = \"TuVwXYZ\"\n# # s = \"ABCDEFFDEfghCBA\"\n# # def originalIncreasingSubstrings(s):\n# #     string = ''\n# #     subs = []\n# #     print(''.join(sorted(s)))\n# #     i = 0",
         "detail": "wk18.code_signal.cs-week2-projects",
         "documentation": {}
     },
@@ -3147,7 +3147,7 @@
         "kind": 2,
         "importPath": "wk18.code_signal.cs-week2-projects",
         "description": "wk18.code_signal.cs-week2-projects",
-        "peekOfCode": "def evenDigitsNumber(a):\n    even_count = 0\n    for group in a:\n        if len(str(group)) % 2 == 0:\n            even_count += 1\n    return even_count\n# print(evenDigitsNumber(a))\n# You're writing a new programming language and you'd like it to have the capability of splitting a string into substrings with limited characters. More specifically, we'll call a substring good if the absolute difference in ASCII codes between any two of its characters is less than or equal to k.\n#\n# For example, if k = 3, then the string \"bad\" would be considered good, since the greatest difference in ASCII codes is 3 (between the a and d characters). The string \"nice\" would not be considered good, since there's a difference of 11 between the c and n characters.",
+        "peekOfCode": "def evenDigitsNumber(a):\n    even_count = 0\n    for group in a:\n        if len(str(group)) % 2 == 0:\n            even_count += 1\n    return even_count\n# print(evenDigitsNumber(a))\n# You're writing a new programming language and you'd like it to have the capability of splitting a string into substrings with limited characters. More specifically, we'll call a substring good if the absolute difference in ASCII codes between any two of its characters is less than or equal to k.\n# For example, if k = 3, then the string \"bad\" would be considered good, since the greatest difference in ASCII codes is 3 (between the a and d characters). The string \"nice\" would not be considered good, since there's a difference of 11 between the c and n characters.\n# You are given a string strToSplit that consists of lowercase English letters only, and your task is to find the minimal number of good substrings you can split it into.",
         "detail": "wk18.code_signal.cs-week2-projects",
         "documentation": {}
     },
@@ -3201,7 +3201,7 @@
         "kind": 5,
         "importPath": "wk18.code_signal.cs-week2-projects",
         "description": "wk18.code_signal.cs-week2-projects",
-        "peekOfCode": "sequence = [-1, 3, -2, 2]\ndef arrayMedian(sequence):\n    return statistics.median(sequence)\n# print(arrayMedian(sequence))\n#\n# s = \"TuVwXYZ\"\n#\n# # s = \"ABCDEFFDEfghCBA\"\n#\n# # def originalIncreasingSubstrings(s):",
+        "peekOfCode": "sequence = [-1, 3, -2, 2]\ndef arrayMedian(sequence):\n    return statistics.median(sequence)\n# print(arrayMedian(sequence))\n# s = \"TuVwXYZ\"\n# # s = \"ABCDEFFDEfghCBA\"\n# # def originalIncreasingSubstrings(s):\n# #     string = ''\n# #     subs = []\n# #     print(''.join(sorted(s)))",
         "detail": "wk18.code_signal.cs-week2-projects",
         "documentation": {}
     },
@@ -3237,7 +3237,7 @@
         "kind": 5,
         "importPath": "wk18.code_signal.cs-week2-projects",
         "description": "wk18.code_signal.cs-week2-projects",
-        "peekOfCode": "a = [12, 134, 111, 1111, 10]\ndef evenDigitsNumber(a):\n    even_count = 0\n    for group in a:\n        if len(str(group)) % 2 == 0:\n            even_count += 1\n    return even_count\n# print(evenDigitsNumber(a))\n# You're writing a new programming language and you'd like it to have the capability of splitting a string into substrings with limited characters. More specifically, we'll call a substring good if the absolute difference in ASCII codes between any two of its characters is less than or equal to k.\n#",
+        "peekOfCode": "a = [12, 134, 111, 1111, 10]\ndef evenDigitsNumber(a):\n    even_count = 0\n    for group in a:\n        if len(str(group)) % 2 == 0:\n            even_count += 1\n    return even_count\n# print(evenDigitsNumber(a))\n# You're writing a new programming language and you'd like it to have the capability of splitting a string into substrings with limited characters. More specifically, we'll call a substring good if the absolute difference in ASCII codes between any two of its characters is less than or equal to k.\n# For example, if k = 3, then the string \"bad\" would be considered good, since the greatest difference in ASCII codes is 3 (between the a and d characters). The string \"nice\" would not be considered good, since there's a difference of 11 between the c and n characters.",
         "detail": "wk18.code_signal.cs-week2-projects",
         "documentation": {}
     },
@@ -3777,7 +3777,7 @@
         "kind": 5,
         "importPath": "wk18.code_signal.cs-weeks3-4-projects",
         "description": "wk18.code_signal.cs-weeks3-4-projects",
-        "peekOfCode": "prices = [3, 100, 1, 97]\n#\n# prices = []\n# prices = [61, 91, 6, 15, 28, 30, 39, 69, 78, 81, 62, 38, 56, 69, 22, 95, 47, 82,\n#           52, 64, 74, 97, 60, 68, 5, 23, 45, 55, 66, 57, 26, 4, 21, 65, 55, 50,\n#           41, 88, 39, 84, 77, 5, 76, 11, 3, 51, 96, 100, 13, 26, 79, 98, 84, 66,\n#           93, 65, 98, 60, 57, 35, 12, 40, 83, 62, 46, 60, 26, 94, 59, 29, 70,\n#           34, 83, 98, 89, 57, 71, 44, 23, 43, 55, 1, 70, 29, 44, 10, 70, 83, 95,\n#           96, 97, 84, 23, 16, 34, 55, 59, 73, 17, 73]\n# def buyAndSellStock(prices):",
+        "peekOfCode": "prices = [3, 100, 1, 97]\n# prices = []\n# prices = [61, 91, 6, 15, 28, 30, 39, 69, 78, 81, 62, 38, 56, 69, 22, 95, 47, 82,\n#           52, 64, 74, 97, 60, 68, 5, 23, 45, 55, 66, 57, 26, 4, 21, 65, 55, 50,\n#           41, 88, 39, 84, 77, 5, 76, 11, 3, 51, 96, 100, 13, 26, 79, 98, 84, 66,\n#           93, 65, 98, 60, 57, 35, 12, 40, 83, 62, 46, 60, 26, 94, 59, 29, 70,\n#           34, 83, 98, 89, 57, 71, 44, 23, 43, 55, 1, 70, 29, 44, 10, 70, 83, 95,\n#           96, 97, 84, 23, 16, 34, 55, 59, 73, 17, 73]\n# def buyAndSellStock(prices):\n#     # iterate array, for each item after subtract and store the amount as",
         "detail": "wk18.code_signal.cs-weeks3-4-projects",
         "documentation": {}
     },
@@ -4209,7 +4209,7 @@
         "kind": 5,
         "importPath": "wk18.code_signal.cs-weeks3-4-projects",
         "description": "wk18.code_signal.cs-weeks3-4-projects",
-        "peekOfCode": "reverseLinkedList(l) = [5, 4, 3, 2, 1].\n\"\"\"\n# Singly-linked lists are already defined with this interface:\n# class ListNode(object):\n#   def __init__(self, x):\n#     self.value = x\n#     self.next = None\n#\ndef reverseLinkedList(l):\n    cur = l",
+        "peekOfCode": "reverseLinkedList(l) = [5, 4, 3, 2, 1].\n\"\"\"\n# Singly-linked lists are already defined with this interface:\n# class ListNode(object):\n#   def __init__(self, x):\n#     self.value = x\n#     self.next = None\ndef reverseLinkedList(l):\n    cur = l\n    prev = None",
         "detail": "wk18.code_signal.cs-weeks3-4-projects",
         "documentation": {}
     },
@@ -4794,7 +4794,7 @@
         "kind": 5,
         "importPath": "wk18.code_signal.cs-weeks5-6-projects",
         "description": "wk18.code_signal.cs-weeks5-6-projects",
-        "peekOfCode": "treePaths(t) = [\"5->2->10\", \"5->2->4\", \"5->-3\"].\nThe given tree looks like this:\n    5\n   / \\\n  2  -3\n / \\\n10  4\n\"\"\"\n#\n# Binary trees are already defined with this interface:",
+        "peekOfCode": "treePaths(t) = [\"5->2->10\", \"5->2->4\", \"5->-3\"].\nThe given tree looks like this:\n    5\n   / \\\n  2  -3\n / \\\n10  4\n\"\"\"\n# Binary trees are already defined with this interface:\n# class Tree(object):",
         "detail": "wk18.code_signal.cs-weeks5-6-projects",
         "documentation": {}
     },
@@ -4956,7 +4956,7 @@
         "kind": 5,
         "importPath": "wk18.code_signal.cs-weeks5-6-projects",
         "description": "wk18.code_signal.cs-weeks5-6-projects",
-        "peekOfCode": "root = [10, 5, 15, 3, 7, None, 18]\nlower = 7\nupper = 15\n#\n# Binary trees are already defined with this interface:\n# class Tree(object):\n#   def __init__(self, x):\n#     self.value = x\n#     self.left = None\n#     self.right = None",
+        "peekOfCode": "root = [10, 5, 15, 3, 7, None, 18]\nlower = 7\nupper = 15\n# Binary trees are already defined with this interface:\n# class Tree(object):\n#   def __init__(self, x):\n#     self.value = x\n#     self.left = None\n#     self.right = None\n# Binary trees are already defined with this interface:",
         "detail": "wk18.code_signal.cs-weeks5-6-projects",
         "documentation": {}
     },
@@ -4965,7 +4965,7 @@
         "kind": 5,
         "importPath": "wk18.code_signal.cs-weeks5-6-projects",
         "description": "wk18.code_signal.cs-weeks5-6-projects",
-        "peekOfCode": "lower = 7\nupper = 15\n#\n# Binary trees are already defined with this interface:\n# class Tree(object):\n#   def __init__(self, x):\n#     self.value = x\n#     self.left = None\n#     self.right = None\n#",
+        "peekOfCode": "lower = 7\nupper = 15\n# Binary trees are already defined with this interface:\n# class Tree(object):\n#   def __init__(self, x):\n#     self.value = x\n#     self.left = None\n#     self.right = None\n# Binary trees are already defined with this interface:\n# class Tree(object):",
         "detail": "wk18.code_signal.cs-weeks5-6-projects",
         "documentation": {}
     },
@@ -4974,7 +4974,7 @@
         "kind": 5,
         "importPath": "wk18.code_signal.cs-weeks5-6-projects",
         "description": "wk18.code_signal.cs-weeks5-6-projects",
-        "peekOfCode": "upper = 15\n#\n# Binary trees are already defined with this interface:\n# class Tree(object):\n#   def __init__(self, x):\n#     self.value = x\n#     self.left = None\n#     self.right = None\n#\n# Binary trees are already defined with this interface:",
+        "peekOfCode": "upper = 15\n# Binary trees are already defined with this interface:\n# class Tree(object):\n#   def __init__(self, x):\n#     self.value = x\n#     self.left = None\n#     self.right = None\n# Binary trees are already defined with this interface:\n# class Tree(object):\n#   def __init__(self, x):",
         "detail": "wk18.code_signal.cs-weeks5-6-projects",
         "documentation": {}
     },
@@ -5622,7 +5622,7 @@
         "kind": 2,
         "importPath": "wk18.code_signal.graph-practice",
         "description": "wk18.code_signal.graph-practice",
-        "peekOfCode": "def cycle(g, u, path):\n    path[u] = True\n    for v in g[u]:\n        if path[v] or cycle(g, v, path.copy()):\n            return True\n    return False\n# my solution only passing 19/20 tests\n# def hasDeadlock(connections):\n#     # find out if the graph has a cycle\n#",
+        "peekOfCode": "def cycle(g, u, path):\n    path[u] = True\n    for v in g[u]:\n        if path[v] or cycle(g, v, path.copy()):\n            return True\n    return False\n# my solution only passing 19/20 tests\n# def hasDeadlock(connections):\n#     # find out if the graph has a cycle\n#     # helper function to see if a nodes children are visited",
         "detail": "wk18.code_signal.graph-practice",
         "documentation": {}
     },
@@ -6081,7 +6081,7 @@
         "kind": 5,
         "importPath": "wk18.code_signal.old-cs-algorithm",
         "description": "wk18.code_signal.old-cs-algorithm",
-        "peekOfCode": "words = []\nwith open(\"words.txt\") as f:\n    for w in f:\n        w = w.strip()\n        words.append(w)\n# with dictionary\n# words = {}\n#\n# with open('words.txt') as f:\n#     for w in f:",
+        "peekOfCode": "words = []\nwith open(\"words.txt\") as f:\n    for w in f:\n        w = w.strip()\n        words.append(w)\n# with dictionary\n# words = {}\n# with open('words.txt') as f:\n#     for w in f:\n#         w = w.strip()",
         "detail": "wk18.code_signal.old-cs-algorithm",
         "documentation": {}
     },
@@ -8331,7 +8331,7 @@
         "kind": 5,
         "importPath": "wk19.d3.bst",
         "description": "wk19.d3.bst",
-        "peekOfCode": "t = BSTNode(10)\nt.insert(20)\nt.insert(15)\nresult = t.search(15)\nprint(result)\n# result [15]\n#        /  \\\n#       n    n\n#\n#        [10] s",
+        "peekOfCode": "t = BSTNode(10)\nt.insert(20)\nt.insert(15)\nresult = t.search(15)\nprint(result)\n# result [15]\n#        /  \\\n#       n    n\n#        [10] s\n#       /    \\",
         "detail": "wk19.d3.bst",
         "documentation": {}
     },
@@ -8340,7 +8340,7 @@
         "kind": 5,
         "importPath": "wk19.d3.bst",
         "description": "wk19.d3.bst",
-        "peekOfCode": "result = t.search(15)\nprint(result)\n# result [15]\n#        /  \\\n#       n    n\n#\n#        [10] s\n#       /    \\\n#      n      [20] s\n#             /   \\",
+        "peekOfCode": "result = t.search(15)\nprint(result)\n# result [15]\n#        /  \\\n#       n    n\n#        [10] s\n#       /    \\\n#      n      [20] s\n#             /   \\\n#          s [15]    n",
         "detail": "wk19.d3.bst",
         "documentation": {}
     },
